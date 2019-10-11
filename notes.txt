@@ -1,0 +1,48 @@
+C/Java: logiciel, système
+PHP: orienté web
+Python, Powershell: scripting
+
+
+9h30->12h30
+13h30-16h30
+
+Langages compilés:
+Code source -> compilateur (C) -> fichier binaire (0,1) executable
+
+Langages interprétés:
+Code source -> interpréteur (python) -> code executé immédiatement
+
+4 clés de la programmation
+1/ variables
+nom_de_la_variable = "valeur de la variable"
+types simples: int,str,float,bool
+2/ structures conditionnelles (if)
+3/ structures itératives (boucle)
+4/ fonctions
+
+
+Editeur généraliste: VS Code
+Reconnaît la syntaxe python (coloration, formatage, aide à la saisie)
+
+Types complexes: listes, tableaux, etc
+Python: list, dictionary, tuple
+
+
+
+
+# Commandes Powershell
+Get-Help Get-ChildItem
+Get-Command
+Get-ComputerInfo
+Get-Clipboard
+Set-Clipboard "pezzo di seta"
+New-Item "test" -ItemType Directory
+New-Item -Path "C:\toto" -ItemType Directory
+Remove-Item -Path "C:\toto"
+New-Item -Path "toto.txt" -ItemType File
+Rename-Item -Path "toto.txt" -NewName "zozo.txt"
+Move-Item -Path ".\zozo.txt" -Destination ".\test\zozo.txt"
+Get-Content .\zozo.txt
+
+# sc: alias du cmdlet Set-Content
+sc -Path .\zozo.txt -Value "Je programme en Powershell"
